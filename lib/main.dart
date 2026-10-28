@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MainApp());
+  runApp( MainApp());
 }
 
 class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+  MainApp({super.key});
 
   final String userName = 'I Ketut Gunawan, S.Kom, M.T.I.';
   final String role = 'Senior Backend Engineer & Dosen';
@@ -90,7 +90,7 @@ class MainApp extends StatelessWidget {
                     const StatItem(count: '1.2K', label: 'Followers'),
                     const SizedBox(width: 24), 
                     
-                    StatItem(count: 42, label: 'Following'),
+                    StatItem(count: '42', label: 'Following'),
                   ],
                 ),
               ),
@@ -123,7 +123,7 @@ class MainApp extends StatelessWidget {
         ),
       ),
       );
-    ); 
+    );\ 
   }
 }
 
