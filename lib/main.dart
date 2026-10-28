@@ -1,9 +1,11 @@
+import 'package:flutter/material.dart';
+
 void main() {
   runApp(MainApp());
 }
 
 class MainApp extends StatelessWidget {
-  MainApp({super.key});
+  const MainApp({super.key});
 
   final String userName = 'I Ketut Gunawan, S.Kom, M.T.I.';
   final String role = 'Senior Backend Engineer & Dosen';
