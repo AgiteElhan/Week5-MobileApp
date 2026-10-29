@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
   final List<String> experiences = [
     'Senior Backend Engineer - EDC Bank DKI',
     'Backend & System Architect - Secure Payment EDC',
-    'Lead Developer - Aplikasi Sekurindo'
+    'Lead Developer - Aplikasi Sekurindo',
     'Backend Engineer - Pengembangan Sistem E-money', 
   ];
 
@@ -104,24 +104,24 @@ class MainApp extends StatelessWidget {
                 ),
               ),
               const Divider(),
-              
-             SizedBox(
+
+              SizedBox(
                 height: 300,
-                child: ListView.builder(
-                  itemCount: experiences.length,
-                  itemBuilder: (context, index) {
-                    return Card(
-                      elevation: 2,
-                      margin: const EdgeInsets.symmetric(vertical: 6),
-                      child: ListTile(
-                        leading: const Icon(
-                          Icons.work,
-                          color: Colors.blueAccent,
+                child: ListView(
+                  children: [
+                    for (int i = 0; i < experiences.length; i++)
+                      Card(
+                        elevation: 2,
+                        margin: const EdgeInsets.symmetric(vertical: 6),
+                        child: ListTile(
+                          leading: const Icon(
+                            Icons.work,
+                            color: Colors.blueAccent,
+                          ),
+                          title: Text(experiences[i]),
                         ),
-                        title: Text(experiences[index]),
                       ),
-                    );
-                  },
+                  ],
                 ),
               ),
             ],
