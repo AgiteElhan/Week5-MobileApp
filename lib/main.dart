@@ -85,7 +85,7 @@ class MainApp extends StatelessWidget {
                   children: [
                     const StatItem(count: '15', label: 'Proyek'),
                     
-                    const SizedBox(height: 24),
+                    const SizedBox(width: 24),
                     
                     const StatItem(count: '1.2K', label: 'Followers'),
                     const SizedBox(width: 24), 
