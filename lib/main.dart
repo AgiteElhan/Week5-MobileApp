@@ -11,10 +11,10 @@ class MainApp extends StatelessWidget {
   final String role = 'Junior Web Developer';
 
   final List<String> experiences = [
-    'Senior Backend Engineer - EDC Bank DKI',
-    'Backend & System Architect - Secure Payment EDC',
-    'Lead Developer - Aplikasi Sekurindo',
-    'Backend Engineer - Pengembangan Sistem E-money', 
+    'Project E-Commerce - Niaga Jaya Electronic',
+    'Project Bank Sampah - SiAsri',
+    'Project SIMRS-Bunda Sejati',
+    'Project Uangku - Manajemen Uang Mobile', 
   ];
 
   @override
@@ -99,7 +99,7 @@ class MainApp extends StatelessWidget {
               const Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  'Pengalaman Kerja',
+                  'Projek',
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
               ),
