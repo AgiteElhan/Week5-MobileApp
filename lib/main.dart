@@ -31,6 +31,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.blueAccent,
           foregroundColor: Colors.white,
+          leading: const Icon(Icons.arrow_back),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
