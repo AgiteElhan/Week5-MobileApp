@@ -83,14 +83,14 @@ class MainApp extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const StatItem(count: '15', label: 'Proyek'),
+                    const StatItem(count: '5', label: 'Proyek'),
                     
                     const SizedBox(width: 24),
                     
-                    const StatItem(count: '1.2K', label: 'Followers'),
+                    const StatItem(count: '500K', label: 'Followers'),
                     const SizedBox(width: 24), 
                     
-                    StatItem(count: '42', label: 'Following'),
+                    StatItem(count: '2', label: 'Following'),
                   ],
                 ),
               ),
