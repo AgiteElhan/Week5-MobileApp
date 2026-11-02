@@ -1,17 +1,48 @@
-# pertemuan_5
+# tuags pertemuan_5 - Mobile App
 
-A new Flutter project.
+saat ini saya sudah berhasil mengerjakan tugas dari pak ketut di pertemuan 5 dimana kita diminta untuk memperbaiki kdoe yang diberikan di google docs lalu modifikasi dengan nama kita sendiri
 
-## Getting Started
+## first commit
+pada first commit saya mengcommit latihan yang dilakukan dikelas
 
-This project is a starting point for a Flutter application.
+## commit ke2
+pada commit ke2 adalah inisiasi awal dengan meengubah kode main.dart dengan kode yang diberikan oleh pak ketut di docs
 
-A few resources to get you started if this is your first Flutter project:
+## commit ke3 
+pada commit ini saya menambahkan import package karena kode dari pak ketut tidak ada import package sehingga terjadi error
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## commit ke4
+selanjutnya adalah bug fix dengan mengubah type data count pada bagian "Following" yang dimana awalnya adalah int sedangan variable count adalah bersifat string 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## commit ke5
+commit ke5 adalah menghapus kode yang tidak diperlukan seperti ");" setelah penutup MaterialApp
+
+## commit ke6
+bug fixing column yang eror dan berantakan pada lisview builder 
+
+## commit ke7
+menambahkan pengalaman kerja atau experience mnjadi 4 column
+
+## commit ke8
+mengubah identitas menjadi nama saya sendiri
+
+## commit ke9 
+mengubah bagian pengalaman kerja menjadi proyek yang dikerjakan
+
+## commit ke10
+bug fixing memberikan jarak antara text pada bagian followers dan proyek dengan mengubah kode hight menjadi width
+
+## Commit ke11
+update statistik followers following dan proyek 
+
+## commit ke 12
+menambahkan icon 'kembali' dengan tanda panah pada pojok kiri atas
+
+## commit ke13 
+menambahkan icon 'user' pada pojok kanan atas
+
+## commit ke 14
+mengubah theme color dari biru ke merah
+
+## commit ke15
+dokumentasi, membuat readme
