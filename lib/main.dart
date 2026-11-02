@@ -23,13 +23,13 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Aplikasi Profil',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
       ),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Profil Pengguna'),
           centerTitle: true,
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: Colors.red,
           foregroundColor: Colors.white,
           leading: const Icon(Icons.arrow_back),
           actions: const [
@@ -84,7 +84,7 @@ class MainApp extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.symmetric(vertical: 12),
                 decoration: BoxDecoration(
-                  color: Colors.blue[50],
+                  color: Colors.red[50],
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Row(
@@ -123,7 +123,7 @@ class MainApp extends StatelessWidget {
                         child: ListTile(
                           leading: const Icon(
                             Icons.work,
-                            color: Colors.blueAccent,
+                            color: Colors.red,
                           ),
                           title: Text(experiences[i]),
                         ),
@@ -154,7 +154,7 @@ class StatItem extends StatelessWidget {
           style: const TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
-            color: Colors.blueAccent,
+            color: Colors.red,
           ),
         ),
         const SizedBox(height: 4),
